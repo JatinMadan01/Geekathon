@@ -567,6 +567,11 @@ body {
     height: 40rem;
 }
 
+.featuring .features-list-container .features:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
 .featuring .features img {
     width: 100%;
     height: 22rem;
@@ -633,6 +638,11 @@ body {
     height: 346px;
 }
 
+.midbottleimg:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
 .middleh2 {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -689,6 +699,12 @@ input {
     height: 40px;
     margin-left: 70px;
     justify-content: center;
+}
+
+.button:hover {
+    background-color: #F50008;
+    border: 2px solid #F50008;
+    color: white;
 }
 
 .buttonn {
@@ -1010,14 +1026,16 @@ input {
     padding: 0.5rem 2rem;
 }
 
-.feat .features h6 {
+.feat .features a {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     font-size: 1.25rem;
     color: rgb(0, 0, 0);
     padding: 0.5rem 2rem;
-    padding-top: 30px;
+    padding-top: 60px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .container_section {
@@ -1109,6 +1127,12 @@ input {
     flex-direction: column;
     justify-content: space-between;
     align-items: space-between;
+}
+
+.detail-inner a:hover {
+    background-color: #F50008;
+    border: 2px solid #F50008;
+    color: white;
 }
 
 .detail-inner .detail-info h3 {
